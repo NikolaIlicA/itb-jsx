@@ -1,0 +1,109 @@
+
+/* kada vise elemenata ima isto svojstvo*/
+
+h3,h4 {
+    color: orange;
+}
+
+/* pristupanje klasi */ 
+
+.desno_poravnjanje {
+    text-align: right;
+}
+
+.crveni_tekst {
+    color: red;
+}
+
+.drugi {
+    background-color: yellow;
+}
+
+
+/* pristupanje id-ju */
+
+#treci {
+    background-color: bisque;
+    border: solid 2px red;
+    border-radius: 15%;
+    
+}
+
+
+
+/* mogu da u isto vreme pravim atribute i za klasu i za id */
+
+.drugi, #treci {
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* !!!!!prioritet selektora!!!! */
+
+li {
+    color: limegreen;
+}  /* najmanji prioritet */
+
+.stavka {
+    color: blue;
+}  /*veci prioritet */
+
+/* prioritet selektora elemenata je manju od prioriteta klase */
+
+#prva_stavka {
+    color: orange;
+}
+
+#cetvrta_stavka {
+    color: brown;
+}
+
+/* !!!!!!! PRIORITET SELEKTORA: element < klasa < id < inline < !important   !!!!! */
+/* INLINE NE PRAKTIKOVATI */
+
+#peta_stavka {
+    color: bisque !important;
+}
+
+
+div p {
+    color: gray;
+}
+
+/* Kombinator razmaka - obojice samo one paragrafe koji su u divu, koje sam gadjao sa div p  --- ovom komandom smo rekli da svi potomci div taga ce dobiti to svojstvo div taga */
+
+div>p {
+    border: 1px solid green;
+}
+
+/* stilizacija linka */
+
+a {
+    color: red;
+}
+
+a :visited {
+    color: brown;
+    
+}
+
+
+/* pseudo selektori */
+
+p:first-child {
+    font-weight: bold;    
+}
+
+
+/* svaki treci li */
+
+li:nth-child(3n) {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+li:hover {
+    background-color: aqua;
+}

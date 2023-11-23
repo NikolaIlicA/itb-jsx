@@ -1,0 +1,57 @@
+h1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+h2 {
+    color: brown;
+    
+}
+
+p {
+    color: purple;
+    font-size: 20px;
+}
+
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.naslov {
+    text-align: center;
+}
+
+.paragraf {
+    text-align: right;
+    font-size: 24px;
+}
+
+img {
+    
+    border-style: dotted;
+    border-width: 2px;
+}
+
+li:nth-child(odd) {
+   color: green; 
+}
+
+h3:nth-child(4) {
+    text-align: center;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color:yellow ;
+}
