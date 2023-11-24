@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forme</title>
+</head>
+<body>
+    
+    <form>
+
+
+        <fieldset>
+            <legend>Osnovne informacije</legend>
+            <p>
+                <label>Ime:</label>
+                <input type="text">
+            </p>
+            
+            <p>                
+                <input type="text" placeholder="Prezime" >            
+            </p>
+
+            <p>
+                <input type="text" value="Kurs" maxlength="10">
+            </p>
+
+            <p>
+                <label>Godine:</label>
+                <input type="number" min="18" step="0.5">
+            </p>
+
+            <p> 
+                <label>Lozinka:</label>
+                <input type="password">
+            </p>
+
+            <p>
+                <label>Datum rodjenja:</label>
+                <input type="date" min="1900-01-01">                
+            </p>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Dodatne informacije</legend>
+            
+            <p>
+                <label>Odaberite kurs:</label>
+                <input type="radio"name="kurs" checked value="JS">JS
+                <input type="radio"name="kurs">PHP
+                <input type="radio"name="kurs">QA
+            </p>
+
+            <p>
+                <label for="">Znanje:</label>
+                <input type="checkbox"name="Znanje"value="html" id="html" checked><label for="html">HTML</label>
+                <input type="checkbox"name="Znanje"value="CSS" id="css"><label for="css">CSS</label>
+                <input type="checkbox"name="Znanje"value="JS" id="JS"><label for="JS">JS</label>
+            </p>
+
+            <p>
+                <label for="fajl">Odaberite fajl:</label>
+                <input type="file">
+            </p>
+
+            <p>
+                <label>Izaberite kurs:</label>
+                <select name="" id="">
+                    <optgroup label="Nis">
+                        <option value="js">JavaScript</option>
+                        <option value="qa-nis">QA</option>
+                    </optgroup>
+                    <optgroup label="Beograd">
+                        <option value="Python">Python</option>
+                        <option value="PHP">PHP</option>
+                        <option value="QA-bg">QA</option>
+                    </optgroup>
+                </select>
+            </p>
+
+        </fieldset>
+
+        <p>
+            <input type="button" value="Klikni">
+            <input type="submit" value="Posalji">
+            <input type="reset" value="Resetuj"> 
+            <button>Hello</button>
+        </p>
+
+    </form>
+    <!-- za brojeve koristimo input type="text" npr za brojeve telefona ili jmbg, iz razloga sto ce cesto da proguta nulu ako je na prvom mestu. Isto ako stavimo da je samo input number, ne mogu da se stavljaju npr kose crte itd -->
+
+</body>
+</html>
