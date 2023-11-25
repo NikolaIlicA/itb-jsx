@@ -26,6 +26,7 @@
         padding: 10px;
         background-color: white;
         border-radius: 0px 0px 8px 8px;
+        border: 2px solid  rgb(77, 77, 158);
     }
     
     
@@ -65,7 +66,7 @@
 
     footer {
         font-size: 20px;
-        
+        border: 2px solid  rgb(77, 77, 158);
         background-color: white;
         padding-top: 10px;
         padding-bottom: 10px;
