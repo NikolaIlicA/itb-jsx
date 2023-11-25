@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forme</title>
+</head>
+<body>
+
+    <form>
+
+        <fieldset>
+            
+            <legend>
+                Login details
+            </legend>
+
+
+                <p class="login">
+                    <label >Name:</label>
+                    <input type="text" class="text"> 
+                </p>
+
+                <p class="login">
+                    <label >Email:</label>
+                    <input type="email" name="email" id="email" class="text">
+                </p>
+
+                <p class="login">
+                    <label  for="password">Password:</label>
+                    <input type="password" name="password" id="password" class="text">
+                </p>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend> 
+                Your feedback
+            </legend>
+
+             
+                <ul type="none">Please check all the emotions that apply to you:
+                    <li>Angry <input type="checkbox" class="check"></li> 
+                    <li>Sad <input type="checkbox" class="check"></li>
+                    <li>Happy<input type="checkbox" class="check" checked value="Happy"></li>
+                    <li>Ambivalent<input type="checkbox" class="check"></li>
+                </ul>
+
+                <ul type="none">How satisfied were you with our service?
+                    <li>Very satisfied <input type="radio" class="check" name="satisfaction"></li>
+                    <li>Satisfied <input type="radio" class="check" name="satisfaction"></li>
+                    <li>Didn't care<input type="radio" class="check" name="satisfaction"></li>
+                    <li>Dissatisfied<input type="radio" class="check" name="satisfaction"></li>
+                    <li>Very dissatisfied<input type="radio" class="check" name="satisfaction"></li>
+                </ul>
+
+                <ul><label for="">Further comments:</label>
+                <textarea rows="3" cols="25"></textarea></ul>
+                            
+        </fieldset>
+        
+        <p class="forma">
+            Bio photo: <input type="file" name="photo" class="forma">
+        </p> 
+
+        <p class="forma">
+            Location visited: 
+                <select name="Select location">
+                    <option value="select" selected disabled>
+                        Select location
+                    </option>
+                </select>
+        </p>
+        
+        <input type="submit" name="Submit" class="dugme">
+        <br>
+        <input type="reset" value="reset" class="dugme">
+         
+
+
+    </form>
+
+</body>
+
+</html>

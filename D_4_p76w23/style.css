@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form { width: 40%;}
+
+
+fieldset {
+    border: solid grey 3px ;
+}
+
+
+.login {
+    margin: 7px 40px 0px 40px;
+    
+}
+
+.text {
+    margin-left: 40px;
+    border: solid rgb(196, 192, 192) 2px;
+}
+
+ul li {
+    padding: 10px 40px 0px 40px;
+    
+}
+
+.check {margin-left: 40px;}
+
+.forma {
+    padding-left: 40px;
+}
+.dugme {
+    margin: 10px 0px 0px 80px;
+}

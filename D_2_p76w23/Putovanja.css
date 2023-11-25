@@ -1,0 +1,114 @@
+* {margin: 0px;
+    padding: 0px;}
+    
+    
+    
+    
+    body{ 
+        
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Caveat;
+        
+    } 
+        
+    
+    #wrapp { 
+        width: 80%;   
+    }
+    
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: white;
+        border-radius: 0px 0px 8px 8px;
+    }
+    
+    
+    img {
+        height: 120px;
+        width: 140px;
+    }
+    
+    
+    #naslov { margin: 0;
+        font-size: 60px;
+    
+    }
+    
+    
+    #naslov a {
+        text-decoration: none;
+    }
+    
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    nav li {
+        margin-right: 20px;
+        font-size: 35px;  
+          
+    }
+    
+    nav li a {
+        text-decoration: none;
+    }
+
+
+
+/* SIDEBAR podesavanja u tabu PUTOVANJA */
+
+    #sidebar {
+        float: left;
+        width: 350px;
+        height: auto;
+        background-color: white;
+        margin-top: 30px;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    fieldset {
+        /*da bih izbrisao liniju granice mogu i sa opcijom border:none; */
+        border-color: rgb(145, 145, 238);
+        text-align: left;
+        padding: 10px;
+        }
+
+    #pretraga {
+        text-align: center;
+    }
+
+    legend{
+        font-size: 30px;
+        
+    }
+
+    #search {
+        font-size: 20px;
+        margin: 0 auto;
+        
+    }
+
+    td {
+    padding: 10px 20px 0px 0px;
+    }
+
+    .select_slova {        
+        font-family:'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    
+    #button {
+        padding:2px 3px 3px 0px;
+
+    }

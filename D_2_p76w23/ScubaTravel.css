@@ -1,0 +1,124 @@
+* {margin: 0px;
+padding: 0px;}
+
+
+
+/* Instaliran font family Caveat */
+
+body{ 
+    
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Caveat;
+    
+} 
+    
+
+#wrapp { 
+    width: 80%;   
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+}
+
+
+img {
+    height: 120px;
+    width: 140px;
+}
+
+
+#naslov { margin: 0;
+    font-size: 60px;
+
+}
+
+
+#naslov a {
+    text-decoration: none;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    font-size: 35px;  
+      
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+a:link {
+    color:orange
+}
+
+a:visited{
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
+
+
+article {
+    padding: 30px;
+}
+
+article section img {
+    float: left;
+    margin-right: 50px;
+    height: 400px;
+    width: 500px;
+    border-style:double;
+    border-color: purple;
+    overflow: hidden;
+}
+
+article #paragraf_naslov {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+article p {
+    text-align: center;
+    font-size: 17px;
+}
+
+
+/*ubacio sam liniju po sred ekrana, dao joj boju pozadine da se ne bi videla. Svrha joj je da svaku sledecu sliku pozicioniram u odnosu na nju. Problem je sto mi se i ona pozicionira u odnosu na prethodni tekst, pa se razlicito vidi kada su ekrani razlicite velicine
+U ponedeljak se radi pozicioniranje!!!*/
+.hr {
+    width: 70%;
+    border-bottom: 1px solid aliceblue;    
+    margin: 70px auto;
+}
+
+
+footer {
+    font-size: 20px;
+    
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+
+}
