@@ -80,7 +80,7 @@
 
     fieldset {
         /*da bih izbrisao liniju granice mogu i sa opcijom border:none; */
-        border-color: rgb(145, 145, 238);
+        border-color: rgb(77, 77, 158);
         text-align: left;
         padding: 10px;
         border-radius: 8px 8px 8px 8px;
@@ -116,6 +116,7 @@
 
     }
 
+    /*FOOTER --> stavljen position:fixed --> kada skrolujem gore dole uvek ce biti vidljiv footer na dnu*/
     footer {
         font-size: 20px;
         border: 2px solid  rgb(77, 77, 158);
@@ -124,5 +125,10 @@
         padding-bottom: 10px;
         text-align: center;
         border-radius: 8px 8px 0px 0px;
+        bottom: 0;        
+        width: 80%;
+        position: fixed;
     
     }
+
+    
