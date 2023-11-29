@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vezba2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--Ovo je prvi red-->
+    <div class="row">
+        <header class="col-12 col-t-12"> <!-- col-12 znaci da zauzima 12 kolona na stranici
+        col-12 se odnosi na desktop uredjaje, a col-t-12 na tablet uredjaje-->
+            Ovo je header stranica
+        </header>
+    </div>
+
+
+    <!-- Ovo je drugi red -->
+    <div class="row">  <!-- ovde cemo izdeliti div na 12 kolona, pa u skladu sa time kolone podeliti child elementima-->
+
+        <nav class="col-3 col-t-3">
+            Ovo je navigacija
+        </nav>
+
+        <section class="col-6 col-t-9">  <!-- videti sliku sa prezentacije, vidi se da tamo section class za tablet zauzima 75% tj col-9 -->
+            Ovo je centralni deo
+        </section>
+
+        <aside class="col-3 col-t-12">
+            Ovo je desni deo
+        </aside>
+    </div>
+
+
+    <!-- ovo je treci red -->
+    <div class="row">
+        <footer class="col-12 col-t-12">
+            Ovo je futer
+        </footer>
+    </div>
+
+
+
+
+</body>
+
+</html>

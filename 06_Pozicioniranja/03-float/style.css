@@ -1,0 +1,33 @@
+
+/* 1) HTML: Parent-child struktura
+    2) children: float 
+    3)parent: overflow ***** videti i opciju clear-fix*******
+    */
+
+
+div {
+    background-color: brown;
+    overflow: hidden;
+}
+
+p {
+    background-color: aquamarine;
+    height: 50px;
+    width: 200px;
+    float: left;
+    border: 2px solid red;
+    /*kada koristimo float left onda to izgleda kao da smo iscupali child element, i nalepili samo preko parenta, te ako parent nema definisane dimenzije, visina ce mu biti 0, p ase nece ni videti. zato stavljamo svojstvo overflow:hidden u parent element*/
+}
+
+
+/*ALERNATIVNO RESENJE
+da se parentu doda klasa clearfix sa svostvima
+.clearfix::after{
+    clear:both;
+    display:table;
+}
+
+*/
+
+/* dodatna fora
+stavim npr float right za sve paragrafe, a dodam ono p:nth-child(2) sa float left, da mi samo drugi ima right*/

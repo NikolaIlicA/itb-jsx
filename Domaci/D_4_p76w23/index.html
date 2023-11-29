@@ -42,18 +42,18 @@
 
              
                 <ul type="none">Please check all the emotions that apply to you:
-                    <li>Angry <input type="checkbox" class="check"></li> 
-                    <li>Sad <input type="checkbox" class="check"></li>
-                    <li>Happy<input type="checkbox" class="check" checked value="Happy"></li>
-                    <li>Ambivalent<input type="checkbox" class="check"></li>
+                    <li>Angry <input type="checkbox" class="check" name="emotions" value="Angry"></li> 
+                    <li>Sad <input type="checkbox" class="check" name="emotions" value="Sad"></li>
+                    <li>Happy<input type="checkbox" class="check" checked value="Happy" name="emotions" value="Happy"></li>
+                    <li>Ambivalent<input type="checkbox" class="check" name="emotions" value="Ambivalent"></li>
                 </ul>
 
                 <ul type="none">How satisfied were you with our service?
-                    <li>Very satisfied <input type="radio" class="check" name="satisfaction"></li>
-                    <li>Satisfied <input type="radio" class="check" name="satisfaction"></li>
-                    <li>Didn't care<input type="radio" class="check" name="satisfaction"></li>
-                    <li>Dissatisfied<input type="radio" class="check" name="satisfaction"></li>
-                    <li>Very dissatisfied<input type="radio" class="check" name="satisfaction"></li>
+                    <li>Very satisfied <input type="radio" class="check" name="satisfaction" value="Very satisfied"></li>
+                    <li>Satisfied <input type="radio" class="check" name="satisfaction" value="Satisfied"></li>
+                    <li>Didn't care<input type="radio" class="check" name="satisfaction" value="Didn't care"></li>
+                    <li>Dissatisfied<input type="radio" class="check" name="satisfaction" value="Dissatisfied"></li>
+                    <li>Very dissatisfied<input type="radio" class="check" name="satisfaction" value="Very dissatisfied"></li>
                 </ul>
 
                 <ul><label for="">Further comments:</label>
@@ -68,7 +68,7 @@
         <p class="forma">
             Location visited: 
                 <select name="Select location">
-                    <option value="select" selected disabled>
+                    <option value="select" selected disabled>  <!-- postoji i opcija hidden selected za default selektovanu opciju-->
                         Select location
                     </option>
                 </select>

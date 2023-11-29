@@ -1,0 +1,103 @@
+header{
+    background-image:url(slika.jpg);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+div {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); /*translate sa vrednostima -50 zaparvo vrati tekst gore i levo za po 50% ali 50% od visine i sirine div taga*/
+
+/* margin:auto je dobra varijanta za centriranje horizontalnog teksta*/
+/*moze i preko display:flex */
+
+}
+
+
+/* gore desno
+header{
+    background-image:url(slika.jpg);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+div {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+*/
+
+
+/* gore levo
+
+header{
+    background-image:url(slika.jpg);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+div {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+*/
+
+/* dole desno
+
+header{
+    background-image:url(slika.jpg);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+div {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+*/
+
+/* dole levo
+
+header{
+    background-image:url(slika.jpg);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+div {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+*/
+
+
+/*header{
+    background-image:url(slika.jpg);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+div {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}*/
+
+

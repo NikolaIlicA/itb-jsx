@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*da se ne bi desavalo da sadrzaj elemenata strce izvan okvira tog elementa*/
+}
+
+.row {
+    width: 100%; /*zato sto se svaki red prostire celom duzinom ekrana*/
+    border: 1px solid black;
+    overflow: hidden; /*daje redu visinu, da ga nema redovi bi imali visinu 0 i bili bi spljosteni */
+}
+
+/*.col-1, .col-2, .col-3 {
+    float: left;
+}  ovo je jedna varijanta, ali cemo koristiti ovu ispod*/
+
+
+
+
+
+
+/* ZA MOBILNEW UREDJAJE*/
+
+@media only screen and (max-width:999px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* ZA TABLET UREDJAJE */
+
+@media only screen and (min-width: 501px) and (max-width: 999px) {
+    [class*="col-t-"] {
+        float: left;
+
+    }
+
+    .col-t-1 {
+        
+    }
+
+    .col-t-2 {
+        width: 16.66%;
+    }
+
+    .col-t-3 { 
+        width: 25%;
+    }
+
+    .col-t-4 {
+        width: 33.33%;
+    }
+
+    .col-t-5 {
+        width: 41.66%;
+    }
+
+    .col-t-6 {
+        width: 50%;
+    }
+
+    .col-t-7 {
+        width: 58.33%
+    }
+
+    .col-t-8 {
+        width: 66.66%;
+    }
+
+    .col-t-9 {
+        width: 75%;
+    }
+
+    .col-t-10 {
+        width: 83.33%;
+    }
+
+    .col-t-11 {
+        width: 91.66%;
+    }
+
+    .col-t-12 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/*OVO ISPOD DOLE JE NAMENJENO DESKTOP UREDJAJIMA - sve do kraja reda .col-12*/
+
+@media only screen and (min-width:1000px) {
+    [class*="col-"] {
+        float: left;
+    }   
+
+    /* svi elementi koji imaju klasu, koja pocinje sa col- primeniti neko pravilo. Kao u linuxu, zvezdica je znak za sve elemente. */
+
+
+
+    /* KOLONE ISPOD MOGU DA SE KORISTE KAO SABLON ZA SVAKI CSS */
+    .col-1 {
+        width: 8.33%; /*stranica je sirine 100% tj 12 kolona, pa je col-1 jednako 100% kroz 12 i to je 8.33%*/
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 { 
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+
+/*  bojenje elemenata */
+
+header {
+    background-color: orange;
+}
+
+nav {
+    background-color: green;
+}
+
+section {
+    background-color: aqua;
+}
+
+aside {
+    background-color: red;
+}
+
+footer {
+    background-color: purple;
+}
+
+
+/* ako koristimo css framework, tj bootsrap, koristicemo ove nacine. Druga varijanta je flex */
+
+/*ima i neka varijanta display:grid */
+
+
+/* za tabletu uredjaje
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+    [class*="col-"] {
+
+        .col-1 {
+            width:25%;
+        }
+
+        .col-2 */

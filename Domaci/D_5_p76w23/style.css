@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {    
+    overflow: hidden;
+    display: flex;    
+}
+
+div {   
+    text-align: center;
+    
+    
+}
+
+img {
+    width: 400px;   
+    height: 80%;
+    object-fit: cover;  
+     
+}
+
+section div p {
+    text-align: center;
+}
+
+aside {
+    float:left;
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+

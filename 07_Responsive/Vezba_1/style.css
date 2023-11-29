@@ -1,0 +1,25 @@
+body {
+    background-color: azure;
+}
+
+img {
+    width: 50%; /* ovo je 50% u odnosu na roditeljski element, tj body tag u ovom slucaju */
+}
+
+
+
+/* Za sirinu ekrana ispod 700px */
+
+@media only screen and (max-width: 700px) {
+    img {
+        width: 100%;  /* znaci cim smanjim ekran da bude ispod 700px, slika ce se prikazati preko 100% sirine tog smanjenog ekrana */
+    }
+}
+
+/* za sirinu ekrana izmedju 500 px i 700 px da  boja teksta bude ljubicasta */
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    p {
+        color: purple;
+    }
+}

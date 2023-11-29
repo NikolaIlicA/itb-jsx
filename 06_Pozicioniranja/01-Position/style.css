@@ -1,0 +1,48 @@
+div {
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    width: 200px;
+    height: 130px;
+    position: relative;
+}
+
+#d2 {
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+    z-index: 1;
+    
+} 
+/* svojstva top bottom left i right mogu da se postavljaju samo ako je postavljen neki position */
+
+
+
+
+#d1 {
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+
+/* relativna pozicija je pozicija koju element ima u odnosu na onu koju ima po defaultu */
+
+
+
+
+
+/* positon: absolute - apsolutno u odnosu na najblizeg pretka koji IMA PODESENU POZICIJU
+Ako nema pretka sa podesenom poziciom, pozicionirace ga u odnosu na ivicu stranice*/
+
+div h3 {
+    position: absolute;
+    margin: 0px;
+    top: 5px;
+    left: 15px;
+}
+
+
+div p {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}

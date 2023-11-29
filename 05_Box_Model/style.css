@@ -32,4 +32,20 @@ height: 300px;}
 /* display svojstvo 
     display:block; --> ovim elementima moze da se podesava width i height.Redjaju se jedan ispod drugog.
     display:inline; --> ovim elementima ne moze da se podesava width i height. Redjaju se jedan do drugog.
-    display: inline-block; --> ovim elementima moze da se podesava width i height, redjaju se jedan do drugog. 
+    display: inline-block; --> ovim elementima moze da se podesava width i height, redjaju se jedan do drugog.*/
+
+    span {
+        background-color: brown;
+        color: white;
+        border: 3px solid blue;
+        padding: 30px;
+        width: 50%;  /* ne moze da se primeni zato sto je inline, znaci mora da bude block ili inline-block da bi se primenilo pravilo*/       
+        display: inline-block;
+        /*da smo stavili sada da je width=50% drugi span bi se prebacio u naredni red, zbog sirine paddinga i bordera */
+        
+    }
+
+* {
+    margin: 0px;   /* zvezda tag podrazumeva da ce pravilo da se primeni na celu stranicu */
+    box-sizing: border-box;
+}
