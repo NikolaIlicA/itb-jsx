@@ -28,6 +28,7 @@
         background-color: white;
         border-radius: 0px 0px 8px 8px;
         border: 2px solid  rgb(77, 77, 158);
+        overflow: hidden;
     }
     
     
