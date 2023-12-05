@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Login details</legend>
+            <p>Name: <input type="text"  class="login"></p>
+            <p>Email: <input type="email" name="email" id="mejl"  class="login"></p>
+            <p>Password <input type="password" name="pass" id="pass"  class="login"></p>
+
+        </fieldset>
+        
+    
+        <fieldset>
+            <legend> Your feedback</legend>
+                <ul type="none"> Please check all emotions that apply to you:
+                    <li>Angry <input type="checkbox" value="angry" class="emotion"></li>
+                    <li>Sad <input type="checkbox" value="sad" class="emotion"></li>
+                    <li>Happy <input type="checkbox" name="happy"  value="happy"  class="emotion" checked></li>
+                    <li>Ambivalent <input type="checkbox" name="amb"  value="ambivalent" class="emotion"></li>
+                </ul>
+                <ul type="none">How satisfied were you with our service?
+                    <li>Very satistfied <input type="radio" name="radio" class="radio" value="vs"></li>
+                    <li>Satisfied <input type="radio" name="radio" class="radio" value="sat"></li>
+                    <li>Didnt care <input type="radio" name="radio" class="radio" value="dc"></li>
+                    <li>Dissatisfied <input type="radio" name="radio" class="radio" value="diss"></li>
+                    <li>Very dissatisfied <input type="radio" name="radio" class="radio" value="vdiss"></li>
+                </ul>
+
+                <p>Further comments: <textarea name="text" id="text" cols="25" rows="3"></textarea></p>
+        </fieldset>
+
+        <table>
+            <tr>
+                <td>
+                    <label for="photo">Bio photo</label>
+                </td>
+                <td>
+                    <input type="file" name="file" id="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                     <label for="">Location visited:</label>
+                </td>
+            <td>
+                <select name="lokacija" id="lokacija">
+                    <option value="Select location" selected disabled>Select location</option>
+                </select>
+            </td>
+
+        </table> 
+        <input type="submit" name="Submit" class="button" value="Submit"><br>
+        <input type="reset" name="reset" class="button" value="Reset">
+    </form>
+    
+</body>
+</html>

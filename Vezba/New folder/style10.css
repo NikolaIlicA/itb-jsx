@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.topbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+
+.topbar ul {
+    overflow: hidden;
+    list-style: none;
+}
+.topbar ul li {
+    width: 25%;
+    border: 1px solid;
+    float: left;
+    text-align: center;   
+    background-color: green;
+    
+}
+
+.topbar ul li a {
+    display: block;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.topbar ul li a:link {
+    text-decoration: none;
+    color: orange;
+}
+
+.topbar ul li a:visited {
+    color: orange;
+}
+
+.topbar ul li a:hover{
+    background-color: bisque;
+}
+.topbar ul li a:active {
+    color: yellow;
+}
+
+/* veritkalni meni */
+
+
+.sidebar {
+    overflow: hidden;
+    top: 60px;
+    position: relative;
+}
+
+.sidebar aside {
+    float: left;
+    width: 25%;
+    border: 1px solid black;
+}
+
+.sidebar section {
+    float: left;
+    width: 75%;
+    border: 1px solid black;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+.sidebar aside ul li {
+    border: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+    
+}
+
+.sidebar aside ul li a {
+    text-decoration: none;
+    background-color: bisque;
+    display: block;
+    font-size: 18px;
+    color: green;
+    padding: 10px 0;
+    
+}
+
+.sidebar aside ul li a:link {
+    color: black
+}
+
+.sidebar aside ul li a:visited {
+    color: blueviolet;
+}
+
+.sidebar aside ul li a:hover{
+    background-color: gray;
+    
+}
+
+.sidebar ul li a:active {
+    color: blue;
+}
+
+.sidebar section {
+    height: 170px;
+    text-align: center;
+    padding: 30px;
+    background-color: aliceblue;
+    border: none;
+     
+}
+
+.dropdown {
+    display: none;
+}
+
+.topbar li:nth-child(4):hover .dropdown {
+    display: block;
+}
+

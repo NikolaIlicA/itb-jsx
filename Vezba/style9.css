@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    overflow: hidden;
+    
+}
+
+p {
+    width: 33.33%;
+    height: 100px;
+    border: 1px solid red;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    background-color: lightgrey;
+    padding-top: 20px;
+}

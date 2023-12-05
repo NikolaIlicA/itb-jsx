@@ -1,0 +1,30 @@
+table, tr,td {
+    empty-cells: show;
+    border: 1px solid black;
+    
+}
+table {
+    width: 100%;
+    
+    border-collapse: collapse;
+}
+
+#prvi {
+    
+    height: 20px;
+    
+}
+
+.drugi {
+    
+    height: 20px;
+    
+    
+}
+    
+   
+.treci {
+    
+    height: 20px;
+    
+}

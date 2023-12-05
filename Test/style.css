@@ -1,0 +1,212 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 10px;
+}
+
+
+.row {
+    overflow: hidden;
+}
+
+/*Za mobilne uredjaje*/
+
+@media only screen and (max-width:700px) {
+    [class*="col-t-"] {
+        width: 100%;   
+        float: left;
+    }
+
+    
+    .col-t-1 {
+        width: 8.33%; 
+    }
+
+    .col-t-2 {
+        width: 16.66%;
+    }
+
+    .col-t-3 { 
+        width: 25%;
+    }
+
+    .col-t-4 {
+        width: 33.33%;
+    }
+
+    .col-t-5 {
+        width: 41.66%;
+    }
+
+    .col-t-6 {
+        width: 50%;
+    }
+
+    .col-t-7 {
+        width: 58.33%
+    }
+
+    .col-t-8 {
+        width: 66.66%;
+    }
+
+    .col-t-9 {
+        width: 75%;
+    }
+
+    .col-t-10 {
+        width: 83.33%;
+    }
+
+    .col-t-11 {
+        width: 91.66%;
+    }
+
+    .col-t-12 {
+        width: 100%;
+    }
+}
+
+/* Za desktop uredjaj*/
+
+@media only screen and (min-width:701px) {
+    [class*="col-"] {
+        width: 100%;
+        float: left;
+    }
+    .col-1 {
+        width: 8.33%; 
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 { 
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+
+
+header {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+header nav  {
+    overflow: hidden;
+    list-style: none;
+    
+}
+
+header nav ul li {
+    float: left;    
+    border: 1px solid white;
+    text-align: center;
+    background-color: orange;
+    
+}
+
+header nav ul li a {    
+    padding: 10px 0px;
+    text-decoration: none;
+    display: block;
+
+}
+
+header nav ul li a:visited {
+    color: white;
+}
+
+header nav ul li a:hover {
+    background-color: brown;
+}
+
+
+#naslov {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: brown;
+   
+}
+
+section div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 400px;
+    background-color: burlywood;
+    text-align: center;
+    position: relative;
+
+}
+
+section div p {
+    padding-top: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+div footer {
+position: fixed;
+bottom: 0px;
+height: 40px;
+background-color: bisque;
+
+
+
+}
+
+div footer img {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50px;
+    height: 40px;
+}

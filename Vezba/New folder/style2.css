@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#rel {
+    width: 50% ;
+    border: 4px double blue;
+
+}
+img {
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#dvojka {
+    clear: both;
+    margin-bottom: 40px;
+}
+table {
+    clear: both;
+    border: 3px solid blue;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    
+}
+
+table td {
+    border: 3px solid blue;
+    text-align: left;
+    padding:10px 10px 10px 15px;
+
+}
+
+ul {
+    text-align: left;
+}
+#treci {
+    margin-bottom: 30px;
+}

@@ -22,12 +22,10 @@ console.log("Ostalo je da procita: " + ostalo + " poglavlja");
 
 //Zadatak 3
 
-//cena dzempera npr 1200 din, dali su 3500 din
-
 let p = 2000; 
 let m = 1500;
 let k = 1100;
-let cenaDzempera = 1200;
+cenaDzempera = (p + m - k)/2;
 
 let kusurPera = p - cenaDzempera;
 let kusurMika = m - cenaDzempera;

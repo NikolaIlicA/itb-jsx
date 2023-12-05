@@ -1,0 +1,72 @@
+h2 {
+    text-align: center;
+    background-color: aqua;
+    color: brown;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+img {
+    border: 3px double red;
+
+}
+
+
+
+.par {
+
+    background-color: aliceblue;
+    color: green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#para {
+    background-color: yellow;
+    color: brown;
+}  /* ovo je samo paragraf u kome se nalazi linkovana rec*/
+
+#para a:link {
+    color: orange;
+}
+
+#para a:visited {
+    color: red;
+}
+
+#para a:hover {
+    color: green;
+    background-color: white;
+}
+
+h1 {
+    color: red;
+}
+h3 {
+    color: green;
+}
+p {
+    color: brown;
+}
+
+div p a:link {
+    color: purple;
+}
+
+div p a:visited {
+    color:yellow;
+}
+
+div p a:hover{
+    color: blue;
+}
+
+
+div p a:active{
+    color: yellow;
+}
+
+.nova { text-align: right;
+font-size: 24px;}

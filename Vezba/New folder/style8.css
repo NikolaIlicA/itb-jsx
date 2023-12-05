@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 40%;
+}
+
+fieldset {
+    border: 3px solid purple;
+}
+
+h1 {
+    font-size: 40px;
+    color: purple;
+    padding-left: 30px;
+}
+
+#prijaviti {
+    text-align: justify;
+    font-size: 30px;
+    padding-left: 30px;
+    color: rgb(126, 122, 122);
+}
+
+#polje {
+    height:  40px;
+    width: 90%;
+    margin-top: 15px;
+    border: 2px solid rgb(126, 122, 122);
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#link {
+    padding-left: 30px;
+    font-size:20px ;
+}
+
+#link a:link {
+    color: purple;
+
+}
+
+#submit {
+    height: 40px;
+    width: 150px;
+    margin-left: 30px;
+    background-color: purple;
+    font-size: 20px;
+    box-shadow: 0 0 10px lightgray(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 40px;
+}

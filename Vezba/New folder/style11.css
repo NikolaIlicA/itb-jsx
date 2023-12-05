@@ -1,0 +1,40 @@
+* {
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    overflow: hidden;
+    
+}
+
+div {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    height: 400px;
+    padding: 20px;
+}
+
+div img {
+    height: 300px;
+    border: 1px double black;
+}
+
+aside {
+    float: left;
+    padding: 20px;
+}
+
+#reklama {
+    margin-left: 100px;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#reklama img {
+    width: 150px;
+    height: 150px;
+}

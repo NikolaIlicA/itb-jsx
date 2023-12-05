@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+header ul {
+    overflow: hidden;
+    list-style: none;
+} 
+
+header ul li {
+    float: left;
+    width: 25%;
+    border: 1px solid red;
+    text-align: center;
+    background-color: bisque;
+    /*NE STAVLJAJ VISINU - HEIGHT - iz nekog razloga kad ima visina, nece da spusta dropdown menu*/
+}
+
+header ul li a {
+    padding: 10px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+header ul li a:link{
+    color: black;
+}
+
+header ul li a:visited {
+    color: purple;
+}
+
+header ul li a:hover {
+    background-color: white;
+}
+
+.dropdown {
+    display: none;
+}
+
+header li:nth-child(3):hover .dropdown {
+    display: block;
+}
+
+.dropdown1 {
+    display: none;
+}
+
+header li:nth-child(4):hover .dropdown1 {
+    display: block;
+}
+
+
+/*ZA DESKTOP UREDJAJE */
+
+@media only screen and (min-width:1000px) {
+    [class*="col-"] {
+        width: 100%;
+        float: left;
+    }
+    .col-1 {
+        width: 8.33%; 
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 { 
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+aside, section {
+    margin-top: 50px;
+}
+
+aside ul li {
+    background-color: bisque;
+    text-align: center;
+    height: 40px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+}
+
+aside ul li a:hover {
+    background-color: white;
+}
+
+
+section {
+    padding: 20px;
+    background-color: rgb(243, 239, 239);
+    height: 160px;
+}
+

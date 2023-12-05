@@ -1,0 +1,17 @@
+body {
+    background-color: azure;
+}
+
+img {
+    width: 50%; /* ovo je 50% u odnosu na roditeljski element, tj body tag u ovom slucaju */
+}
+
+@media only screen and (max-width: 700px) {
+   img { width: 100%;}
+}
+
+@media only screen and (min-width:500px) and (max-width:700px) {
+    p { color: orange;
+        
+    }
+}

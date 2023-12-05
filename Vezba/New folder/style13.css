@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav {
+    overflow: hidden;
+    
+    
+    
+}
+
+nav #left {
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+    background-color: purple;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav section {
+    
+    width: 50%;
+    float: left;
+    background-color: black;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav section ul {
+    list-style: none;
+}
+
+nav section ul li {
+    float: left;
+    
+    
+    
+    
+}
+
+nav #desno {
+    float: right;
+    width: 25%;
+    height: 30px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav #desno ul li {
+    float: left;
+    padding-left: 30px;
+}
+
+
+nav section ul li a {
+
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    
+    
+}
+
+nav section ul li a:link {
+    color: white;
+}
+
+nav section ul li a:visited {
+    color: white;
+}
+
+nav section ul li a:hover{
+    background-color: bisque;
+}

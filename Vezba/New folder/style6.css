@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form {
+    width: 40%
+}
+
+fieldset {
+    border: solid grey 3px ;
+}
+
+
+.login {
+    margin: 0px 40px 0px 40px;
+    border: 2px solid lightgrey;
+}
+
+li {
+    padding-left: 40px;
+    margin-top: 10px;
+}
+li .emotion {
+    margin-left: 40px;
+
+}
+
+li .radio {
+    margin-left: 40px;
+}
+
+#text {
+    margin-left: 15px;
+    border: 2px solid lightgrey;
+}
+table {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.button {
+    margin-top: 10px;
+    margin-left: 90px;
+}

@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 20%;
+}
+
+legend {
+    font-size: 30px;
+    color: black;
+}
+
+fieldset {
+    border: none;
+    color: lightgray;
+}
+
+#name {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: auto;
+    
+}
+
+img {
+    float: left;
+    position: static;
+}
+
+#cardnum {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: auto;
+    float: left;
+}
+
+
+
+/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+
+#check {
+    vertical-align: middle;
+}
+
+#pay {
+    background-color: lightgreen;
+    height: 30px;
+    width: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+}
