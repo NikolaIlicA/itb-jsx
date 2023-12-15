@@ -1,0 +1,24 @@
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+  }
+
+  .square {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+  }
+
+  .even {
+    background-color: black;
+    color: white;
+  }
+
+  .odd {
+    background-color: white;
+    color:black
+  }

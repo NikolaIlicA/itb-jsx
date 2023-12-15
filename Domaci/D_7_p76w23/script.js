@@ -1,10 +1,10 @@
 // Zadatak 1
 
 let x = 3; // x je 3 mkv na koji ide jedan covek
-let v = 90; // povrsina kafica u kv
+let v = 115; // povrsina kafica u kv
 let n = 50; //trenutni broj gostiju
 
-let maxGostiju = v/x;
+let maxGostiju = Math.floor(v/x);
 let napustiti= n - maxGostiju;
 
 if (n<=maxGostiju) {

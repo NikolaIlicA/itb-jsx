@@ -65,6 +65,7 @@ console.log(x);
 ++x;
 console.log(x); // isto uvecava vrednost promenljive za 1 --> dobice se 8
 
+
 // razlika izmedju prethodne dve varijante je u izrazima
 
 x=6;

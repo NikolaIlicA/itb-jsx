@@ -1,0 +1,23 @@
+.crvena {
+    color: red;
+}
+
+.plava {
+    color: blue;
+}
+
+.zelena {
+    color:green;
+}
+
+.okvir1 {
+    width: 300px;
+    height: 300px;
+    border: 10px solid green;
+}
+
+.okvir2 {
+    height: 300px;
+    width: 300px;
+    border: 10px solid purple;
+}
