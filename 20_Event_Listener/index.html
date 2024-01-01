@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="hello">Klikni za hello</button>
+    <button id="broj">broj</button>
+    <p id="ispisBroja"></p>
+    
+    <button id="minus">-</button>
+    <span id="ukupno">0</span>
+    <button id="plus">+</button>
+    <br><br><br><br>
+    <div>
+        <input type="text" id="tekst">
+        <button id="ispisiTekst">Ispisi</button>
+        <p id="ispisTeksta"></p>
+        <br>
+
+
+
+        <input type="text" id="tekst2">
+        <button id="ispisiTekst2">Ispisi</button>
+        <p id="ispisTeksta2"></p>
+        <br>
+        Pol: 
+        <input type="radio" name="pol" id="muski"  value="muskog">Muski   
+        <input type="radio" name="pol" id="zenski" value="zenskog">Zenski
+        <input type="radio" name="pol" id="neopredeljen" value="neopredeljenog" checked>Neopredeljen
+         <!-- name svi moraju da imaju isti da bi se medjusobno iskljucivali kada se klikcu// sa checked vrednoscu kad stavim onda ce taj radio button biti obelezen po defaultu-->
+         <!--Value == sva polja moraju da imaju value, jer smo npr u prethodnom zadatku potrazivali input vrednost == inputTekst.value-->
+    </div>
+
+    <br><br><br>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">
+                            Kvadriraj ovaj broj:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text"  id="input1" >
+                    </td>
+                    <td>
+                        <button id="izr1">
+                            Izracunaj
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">
+                            Prepolovi ovaj broj:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" id="input2" >
+                    </td>
+                    <td>
+                        <button id="izr2">
+                            Izracunaj
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">
+                            Izracunati povrsinu kruga za zadati poluprecnik:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" id="input3" >
+                    </td>
+                    <td>
+                        <button id="izr3">
+                            Izracunaj
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            
+        </form>
+        <p id="paragrafIspis"></p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
