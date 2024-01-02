@@ -3,7 +3,8 @@
 let inputNumber1 = document.getElementById("br1");
 let inputNumber2 = document.getElementById("br2");
 let btnRacunaj = document.getElementById("racunaj");
-let pRezultat = document.getElementById("rezultat")
+let btnResetuj = document.getElementById("resetuj");
+let pRezultat = document.getElementById("rezultat");
 
 btnRacunaj.addEventListener("click",()=>{
     event.preventDefault(); // jos jednom, ovo sluzi samo da spreci reloadovanje browsera, moze e. a moze i event.
@@ -38,6 +39,11 @@ btnRacunaj.addEventListener("click",()=>{
     //console.log(rez);
 
     pRezultat.innerHTML = `${br1} ${o} ${br2} = ${rez}`
+   
+});
+
+btnResetuj.addEventListener("click",()=>{
+    pRezultat.innerHTML = ""; // ovim praznim stringom brisemo sa ekrana 
 })
 
 
