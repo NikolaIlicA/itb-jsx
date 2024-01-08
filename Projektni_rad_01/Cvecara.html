@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cvecara.css">
+    <title>Cvecara</title>
+</head>
+
+
+<body>
+
+    <form>
+
+        <fieldset>
+
+                    <legend>
+                        Vasa porudzbenica
+                    </legend>
+
+
+                    <h2>Odaberite cvece:</h2>
+
+                    <input type="number" id="poljeRuze" placeholder="Cena po cvetu je 150 din">
+                    <label>Ruze</label><br>
+
+                    <input type="number" id="poljeLjiljani" placeholder="Cena po cvetu je 120 din">
+                    <label>Ljiljani</label><br>
+
+                    <input type="number" id="poljeGerberi" placeholder="Cena po cvetu je 70 din">
+                    <label>Gerberi</label><br><br>
+
+                    <h2>Dodatni pokloni:</h2>
+
+                    <input type="checkbox" name="dodatno" id="bombonjera" value="500">Bombonjera<br>
+                    <input type="checkbox" name="dodatno" id="cokolada" value="500">Cokolada<br>
+                    <input type="checkbox" name="dodatno" id="sampanjac" value="500">Sampanjac<br><br>
+
+                    <h2>Placanje:</h2>
+                    
+                    <input type="radio" name="placanje" id="kes" value="kes" checked>Kes<br>
+                    <input type="radio" name="placanje" id="kartica" value="kartica" >Kartica<br><br><br>
+
+                    <input type="submit" value="Izracunaj" id="izracunaj">                 
+                    <button onclick="refreshPage()" id="resetuj">Resetuj</button>
+
+                    <h2>Vasa porudzbina:</h2>
+
+                    <p id="slicice1"></p>
+                    <p id="slicice2"></p>
+                    <p id="slicice3"></p>
+
+                    <p id="dodatniPokloni"></p>
+                    <p id="cenaBezPopusta"></p>
+                    <p id="cenaSaPopustom"></p>
+
+
+
+        </fieldset>
+        
+    </form>
+    
+    <script src="Cvecara.js"></script>
+    
+</body>
+</html>

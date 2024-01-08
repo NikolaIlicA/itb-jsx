@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dugme{
+            background-color: white; 
+            border: 2px solid #04AA6D;     
+            color: black;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.3s;
+            cursor: pointer;
+        }
+        
+        #dugme:hover {
+         background-color: #04AA6D;
+         color: white;
+        }
+
+        #dugme2{
+            background-color: bisque;
+            color:black;
+            border-radius: 5px;
+            border: 2px solid green;
+            font-size: 16px;
+            text-align: center;
+            padding: 10px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        #dugme2:hover{
+            background-color: burlywood;
+            color: white;           
+        }
+        #poljeZaUnos{
+            background-color: green;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid orange;
+            border-radius: 5px;
+            font-size: 16px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        #poljeZaUnos:hover{     
+            color:white;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <button id="dugme">Click here!</button>
+    <p id="par"></p>
+
+
+    <button id="minus">-</button>
+    <span id="broj">0</span>
+    <button id="plus">+</button>
+    <br><br><br>
+
+    <input type="text" id="poljeZaUnos">
+    <button id="dugme2">Klikni ovde!</button>
+    <br><br>
+    Izaberite pol:
+    <input type="radio" name="pol" id="radio1" checked>Muski
+    <input type="radio" name="pol" id="radio2">Zenski
+    <input type="radio" name="pol" id="radio3">Neodredjen
+    <p id="paragraf"></p>
+    <br><br></br>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="">Kvadriraj ovaj broj:</label>
+                </td>
+                <td>
+                    <input type="text" id="kvadrat" placeholder="unestite vrednost">
+                </td>
+                <td>
+                    <button id="IzrKvd" >Izracunaj</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Prepolovi ovaj broj</label>
+                </td>
+                <td>
+                    <input type="text" id="prepolovi" placeholder="unestite vrednost">
+                </td>
+                <td>
+                    <button id="izrPola">Izracunaj</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""> Izracunati povrsinu kruga za zadati poluprecnik</label>
+                </td>
+                <td>
+                   <input type="text" id="poluprecnik" placeholder="unestite vrednost"> 
+                </td>
+                <td>
+                    <button id="izrPovr">Izracunaj</button>
+                </td>
+            </tr>
+
+
+
+        </table>
+
+
+    </form>
+    <p id="parag"></p>
+
+    <br><br><br>
+
+    <input type="text" name="vrednost" id="prvaVrednst" placeholder="unesite vrednost">
+    <input type="radio" value="plus" name="operacija" id="plus" checked>+
+    <input type="radio" value="minus" name="operacija" id="minus">-
+    <input type="radio" value="puta" name="operacija" id="puta">*
+    <input type="radio" value="podeljeno" name="operacija" id="podeljeno">/
+    <input type="text" name="vrednost" id="drugaVrednost" placeholder="unesite vrednost">
+    <button id="rez">Izracunaj</button>
+    <p id="ispisRez"></p>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
